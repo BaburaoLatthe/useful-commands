@@ -16,3 +16,7 @@ hello
 
 4.Rename your last git commit-message with new_message
 	$git commit --amend
+
+5.Git command to store your changes locally in a copy so that you can go on working with some other task and come back and re-apply those stored changes on your branch.
+	$git stash			//to store the local changes in a temporary copy.
+	$git stash pop		//to re-apply your stored changes on the branch.
