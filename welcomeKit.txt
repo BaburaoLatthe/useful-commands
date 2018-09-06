@@ -35,3 +35,7 @@ hello
 	$git stash apply;
 	
 7. git stash to stash untracked files as well with flag -u (or --include-untracked) which tells git to stash to also stash your untracked files
+	
+	$git stash -u;
+		OR
+	$$git stash --include-untracked;
