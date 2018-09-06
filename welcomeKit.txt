@@ -33,3 +33,5 @@ hello
 6. retain your changes in git stash locally so that you can apply the same changes on multiple branches...below is the command to apply this way on your branch is as follow so that the stash changes will be still available to apply on to another branch.
 	
 	$git stash apply;
+	
+7. git stash to stash untracked files as well with flag -u (or --include-untracked) which tells git to stash to also stash your untracked files
