@@ -2,8 +2,11 @@ hello
 
 #Git commands
 1.Create branch in git flow below command
-	$git checkout -b your_new_branch_name;
-	$git checkout -u origin your_another_branch_name;	//send the new branches new origin to remote repository.
+	$git branch your_new_branch_name;							//create new branch
+	$git checkout your_new_branch_name;						//switch to your new branch
+		!!above to commands can be condensed into below one command
+	$git checkout -b your_new_branch_name
+	$git checkout -u origin your_new_branch_name;			//send the new branches new origin to remote repository.
 
 2.To switch to another existing branch follow below command
 	$git checkout your_another_branch_name;
