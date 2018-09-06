@@ -28,4 +28,4 @@ hello
 	$git stash			//to store the local changes in a temporary copy.
 	$git stash pop		//to re-apply your stored changes on the branch.
 
-	
+	NOTE: popping your stash removes your changes from stash and reapplies them to your branch and hence they won't be available anymore to re-apply the same changes on to some other branch.
