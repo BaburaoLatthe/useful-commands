@@ -11,4 +11,5 @@ hello
 2.To switch to another existing branch follow below command
 	$git checkout your_another_branch_name;
 
-3.
+3.To avoid logging into git for each push, pull, fetch ..etc execute below command
+	$git config --global credential.helper wincred
