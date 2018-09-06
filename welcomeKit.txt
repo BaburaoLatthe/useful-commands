@@ -38,4 +38,4 @@ hello
 	
 	$git stash -u;
 		OR
-	$$git stash --include-untracked;
+	$git stash --include-untracked;
