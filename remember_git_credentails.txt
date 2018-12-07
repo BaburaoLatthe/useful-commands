@@ -1,0 +1,13 @@
+Remember git login Credentials for subsequent push pull operations
+
+//Remember my git Credentials on windows
+
+$git config --global credential.helper wincred
+
+
+//Configure the git's global configuration for a user to perform,
+//subsequent push and pull operation against his/her identity.
+
+$git config --global user.name "gpamitranjit"
+$git config --global user.email "gpamitranjit@gmail.com"
+$git config --global credential.helper cache
