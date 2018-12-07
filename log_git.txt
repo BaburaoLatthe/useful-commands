@@ -1,0 +1,6 @@
+
+//Git log
+$git log --graph
+
+$git log --oneline
+

@@ -39,3 +39,8 @@ hello
 	$git stash -u;
 		OR
 	$git stash --include-untracked;
+
+	
+8. git show last commit diff
+	
+	$git show
