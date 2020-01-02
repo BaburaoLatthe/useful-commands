@@ -1,6 +1,9 @@
-hello
 
-#Git commands
+															********************
+									 						*    GIT COMMANDS  *
+															********************
+
+
 1.Create branch in git flow below command
 
 	$git branch your_new_branch_name;						//create new branch
